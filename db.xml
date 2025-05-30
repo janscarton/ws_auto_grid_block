@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema version="0.3">
+	<table name="btWsAutoGrid">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="numberOfCells" type="I">
+			<unsigned />
+			<default value="3" />
+		</field>
+		<field name="minCellWidth" type="I">
+			<unsigned />
+			<default value="150" />
+		</field>
+		<field name="gapSize" type="I">
+			<unsigned />
+			<default value="30" />
+		</field>
+		<field name="autoGridInstanceID" type="I">
+			<unsigned />
+		</field>
+	</table>
+</schema>

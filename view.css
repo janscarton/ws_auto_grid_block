@@ -1,0 +1,23 @@
+.ws-auto-grid {
+	display: grid;
+	margin-bottom: 1em;
+	> div > :last-child {
+		margin-bottom: 0 !important;
+		> :last-child {
+			margin-bottom: 0 !important;
+			> :last-child {
+				margin-bottom: 0 !important;
+			}
+		}
+	}
+}
+
+.ws-auto-grid-edit-target {
+	background-color: hsl(210 100% 90% / 0.5);
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid hsl(210 100% 90%);
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+}
