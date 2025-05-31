@@ -2,7 +2,7 @@
 
 ## Overview
 
-### Problem This Block Solves
+### Problem This Block Aims to Solve
 
 Concrete CMS currently offers two ways to divide content areas into subregions: **Layouts** and **Containers**.
 
